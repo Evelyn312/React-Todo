@@ -2,9 +2,12 @@ import React from "react";
 
 const Task = props => {
     return (
-        <div onClick={() => props.toggleTask(props.task.id)}>
-            <p>{props.task.task}</p>
-            
+    
+        <div 
+            className={`task ${props.task.completed ? 'completed': ''}`}
+            onClick={() => props.toggleTask(props.task.id)}>
+            <p className="task">{props.task.task}</p>
+
           
         </div>
     );

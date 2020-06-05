@@ -1,0 +1,13 @@
+body{
+  
+    background-color:pink;
+}
+.container{
+    width: 400px;
+    margin: 20px auto;
+    
+}
+.task.completed{
+    text-decoration: line-through;
+    color:red;
+}

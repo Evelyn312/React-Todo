@@ -7,7 +7,7 @@ import Task from "./Task";
 
 const TaskList = props => {
     return(
-        <div>
+        <div className="list">
             
           
             {console.log("this is the taskList from props", props.tasklist)}
